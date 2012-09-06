@@ -6,7 +6,8 @@ Server-Side-WebCam using Node.js, Socket.io and "Motion" for grabbing frames
 ServerSide:
 
 You need to have a Linux Server with Node.js installed. The webcam ist connected to the server - not the client.
-Motion will 
+Motion will do the job to connect to the WebCam and save the frames in the folder it was startet (/tmp/motion)
+Remember Motion will stop saving images when there is no change in the image. 
 
 1. Install Motion  (http://www.lavrsen.dk/foswiki/bin/view/Motion/WebHome)
 -- apt-get install motion
