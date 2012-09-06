@@ -1,0 +1,13 @@
+{
+   "name": "ServerSideWebCam",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [
+    "webcam",
+    "cam",
+    "motion"
+  ],
+  "dependencies": {
+    "socket.io": "0.9.10"
+  }
+}
