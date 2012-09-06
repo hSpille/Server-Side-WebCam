@@ -1,7 +1,7 @@
 var io = require('socket.io').listen(8080);
 var fs = require('fs');
 var pic = io.of('/picture');
-var folder = '/tmp/camelot/';
+var folder = '/tmp/motion/';
 io.set('log level', 1);
 var lastImage = null;
 var noImage = false;
